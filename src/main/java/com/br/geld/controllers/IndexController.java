@@ -24,6 +24,6 @@ public class IndexController {
     @GetMapping("/")
     public String home(){
         int randomInt = (int) ((Math.random() * 10) % 10);
-        return names.get(randomInt);
+        return "Bruno";
     }
 }
