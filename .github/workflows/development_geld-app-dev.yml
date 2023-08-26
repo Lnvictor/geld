@@ -19,4 +19,4 @@ jobs:
         with:
           app-name: geld-app-dev
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_82CF2C3D08814F63A6BFB4A4614133A3 }}
-          package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/target/*.jar'
+          package: 'geld-app-dev/target/*.jar'
