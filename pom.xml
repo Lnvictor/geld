@@ -8,6 +8,7 @@
 		<version>2.7.15-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<packaging>war</packaging>
 	<groupId>com.br</groupId>
 	<artifactId>geld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -39,7 +40,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
