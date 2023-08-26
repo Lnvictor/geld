@@ -52,4 +52,4 @@ jobs:
           app-name: 'geldapp-dev'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4AD9A39C74FC4EE598954D1C3BAB0FBD }}
-          package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/target/*.jar'
+          package: '${{ github.workspace }}/target/*.jar'
