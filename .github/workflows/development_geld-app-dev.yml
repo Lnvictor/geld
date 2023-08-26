@@ -18,5 +18,5 @@ jobs:
         uses: Azure/webapps-deploy@v2
         with:
           app-name: geld-app-name
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_82CF2C3D08814F63A6BFB4A4614133A3 }}
           package: geld/target/*.jar
