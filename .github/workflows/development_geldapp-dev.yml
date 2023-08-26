@@ -22,13 +22,15 @@ jobs:
           java-version: '8'
 
       - name: Build with Maven
-        run: mvn clean install && mvn package
+        run: mvn clean install
+      - name: Packaging
+        run: mvn package
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: java-app
-          path: '${{ github.workspace }}/target/*.war'
+          path: '${{ github.workspace }}/target/*.jar'
 
   deploy:
     runs-on: ubuntu-latest
@@ -50,4 +52,4 @@ jobs:
           app-name: 'geldapp-dev'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4AD9A39C74FC4EE598954D1C3BAB0FBD }}
-          package: '*.war'
+          package: '*.jar'

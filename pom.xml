@@ -11,7 +11,6 @@
 	<groupId>com.br</groupId>
 	<artifactId>geld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>geld</name>
 	<description>Financial Organizer</description>
 	<properties>
