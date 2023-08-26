@@ -51,3 +51,7 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_82CF2C3D08814F63A6BFB4A4614133A3 }}
           package: '*.jar'
+
+      - name: Startup command
+        run: java -jar java-app.jar
+
