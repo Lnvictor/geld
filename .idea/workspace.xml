@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65e1bffc-3281-4b41-876d-269ae04fb91f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="65e1bffc-3281-4b41-876d-269ae04fb91f" name="Changes" comment="Updating README.md">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/development_geldapp-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/development_geldapp-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/geld/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/geld/controllers/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/br/geld/GeldApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/br/geld/GeldApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +45,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/victor.barbosa/Documents/personal/geld&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/victor.barbosa/Documents/personal/geld&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.geld in geld">
-    <configuration name="GeldApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.GeldApplication">
+    <configuration name="GeldApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.br.geld.GeldApplication" />
       <module name="geld" />
       <extension name="coverage">
         <pattern>
@@ -58,9 +59,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.br.geld" />
-      <option name="MAIN_CLASS_NAME" value="com.br.geld.GeldApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GeldApplication" />
         <item itemvalue="JUnit.geld in geld" />
         <item itemvalue="JUnit.IndexTests.greetingShouldReturnDefaultMessage" />
         <item itemvalue="JUnit.IndexTests" />
         <item itemvalue="JUnit.GeldApplicationTests.testDummy" />
-        <item itemvalue="JUnit.GeldApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +150,28 @@
       <option name="presentableId" value="Default" />
       <updated>1692375661081</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding dummy test">
+      <option name="closed" value="true" />
+      <created>1692892894186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692892894186</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updating README.md">
+      <option name="closed" value="true" />
+      <created>1692893696746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692893696746</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding dummy test" />
+    <MESSAGE value="Updating README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
   </component>
 </project>
