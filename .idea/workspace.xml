@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65e1bffc-3281-4b41-876d-269ae04fb91f" name="Changes" comment="Updating README.md">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/development_geldapp-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/development_geldapp-dev.yml" afterDir="false" />
+    <list default="true" id="65e1bffc-3281-4b41-876d-269ae04fb91f" name="Changes" comment="generating jar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -166,12 +165,56 @@
       <option name="project" value="LOCAL" />
       <updated>1692893696746</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixing deployment to azure">
+      <option name="closed" value="true" />
+      <created>1693061382095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693061382095</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixing deployment to azure">
+      <option name="closed" value="true" />
+      <created>1693061612820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693061612820</updated>
+    </task>
+    <task id="LOCAL-00005" summary="exposing port 80">
+      <option name="closed" value="true" />
+      <created>1693062314474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693062314474</updated>
+    </task>
+    <task id="LOCAL-00006" summary="generating war">
+      <option name="closed" value="true" />
+      <created>1693063179446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693063179446</updated>
+    </task>
+    <task id="LOCAL-00007" summary="generating jar">
+      <option name="closed" value="true" />
+      <created>1693066520604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693066520604</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding dummy test" />
     <MESSAGE value="Updating README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating README.md" />
+    <MESSAGE value="fixing deployment to azure" />
+    <MESSAGE value="exposing port 80" />
+    <MESSAGE value="generating war" />
+    <MESSAGE value="generating jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="generating jar" />
   </component>
 </project>
