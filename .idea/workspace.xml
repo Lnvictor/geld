@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65e1bffc-3281-4b41-876d-269ae04fb91f" name="Changes" comment="generating jar">
       <change beforePath="$PROJECT_DIR$/.github/workflows/development_geldapp-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/development_geldapp-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
