@@ -22,7 +22,7 @@ jobs:
           java-version: '8'
 
       - name: Build with Maven
-        run: mvn clean package
+        run: mvn -B package --file pom.xml
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -50,4 +50,4 @@ jobs:
           app-name: 'geld-app-dev'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B7359286C32C41EBB36E487E269936EE }}
-          package: '*.war'
+          package: 'java-app.war'
