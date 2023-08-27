@@ -21,7 +21,7 @@ public class IndexController {
         return fibo(position-1) + fibo(position-2);
     }
 
-    @GetMapping("/")
+    @GetMapping("/message")
     public String home(){
         int randomInt = (int) ((Math.random() * 10) % 10);
         return "Bruno";
