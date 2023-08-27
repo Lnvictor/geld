@@ -50,4 +50,4 @@ jobs:
           app-name: 'geld-app-dev'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B7359286C32C41EBB36E487E269936EE }}
-          package: 'java-app.war'
+          package: '*.war'
