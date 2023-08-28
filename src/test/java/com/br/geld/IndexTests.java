@@ -14,7 +14,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @WebMvcTest(IndexController.class)
 public class IndexTests {
 
-    @Value(value="8090")
+    @Value(value="80")
     private int port;
 
     @Autowired
@@ -25,6 +25,6 @@ public class IndexTests {
 
     @Test
     public void greetingShouldReturnDefaultMessage() throws Exception {
-        mvc.perform(get("/")).andExpect(content().string("Bruno"));
+        mvc.perform(get("/message")).andExpect(content().string("Bruno"));
     }
 }
