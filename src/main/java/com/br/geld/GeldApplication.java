@@ -26,8 +26,10 @@ public class GeldApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String[] args){
-		SecretClientManager clientManager = new SecretClientManager();
-		clientManager.configure(this.properties, this.databaseProperties);
-		clientManager.getVaultCredentials();
+		if (System.getenv("APP_ENV") != null){
+			SecretClientManager clientManager = new SecretClientManager();
+			clientManager.configure(this.properties, this.databaseProperties);
+			clientManager.getVaultCredentials();
+		}
 	}
 }
