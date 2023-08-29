@@ -24,6 +24,6 @@ public class IndexController {
     @GetMapping("/message")
     public String home(){
         int randomInt = (int) ((Math.random() * 10) % 10);
-        return "Bruno";
+        return "teste de atualizacao";
     }
 }
