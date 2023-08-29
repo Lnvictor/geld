@@ -25,6 +25,6 @@ public class IndexTests {
 
     @Test
     public void greetingShouldReturnDefaultMessage() throws Exception {
-        mvc.perform(get("/message")).andExpect(content().string("Bruno"));
+        mvc.perform(get("/message")).andExpect(content().string("teste de atualizacao"));
     }
 }
