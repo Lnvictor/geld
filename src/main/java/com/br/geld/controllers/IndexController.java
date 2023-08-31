@@ -23,7 +23,7 @@ public class IndexController {
 
     @GetMapping("/message")
     public String home(){
-        int randomInt = (int) ((Math.random() * 10) % 10);
-        return "Eu amo a Laíse Mayne. Ela é o amor da minha vida!";
+        String message = "Eu amo a laise, ela e o amor da minha vida";
+        return message;
     }
 }
