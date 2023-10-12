@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65e1bffc-3281-4b41-876d-269ae04fb91f" name="Changes" comment="generating jar">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/br/geld/IndexTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/br/geld/IndexTests.java" afterDir="false" />
+    <list default="true" id="65e1bffc-3281-4b41-876d-269ae04fb91f" name="Changes" comment="creating JpaRepos with their respectives custom queries">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/geld/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/geld/controllers/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/geld/domain/Installment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/geld/domain/Installment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/geld/domain/MonthlyBilling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/geld/domain/MonthlyBilling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/geld/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/br/geld/dto/OrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/br/geld/IndexTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +22,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="development" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk1.8.0_202/src.zip!/java/sql/Timestamp.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar!/javax/persistence/EntityManager.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar!/org/hibernate/Session.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.15/spring-data-commons-2.7.15.jar!/org/springframework/data/repository/CrudRepository.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.7.15/spring-data-jpa-2.7.15.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.29/spring-web-5.3.29.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.29/spring-web-5.3.29.jar!/org/springframework/web/context/request/ServletRequestAttributes.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.29/spring-web-5.3.29.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.29/spring-webmvc-5.3.29.jar!/org/springframework/web/servlet/DispatcherServlet.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.29/spring-webmvc-5.3.29.jar!/org/springframework/web/servlet/FrameworkServlet.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.29/spring-webmvc-5.3.29.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,15 +66,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/victor.barbosa/Documents/personal/geld&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/register__orders",
+    "last_opened_file_path": "C:/Users/victor.barbosa/Documents/personal/geld",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.IndexTests">
+}]]></component>
+  <component name="RunManager" selected="JUnit.servicestests in geld">
     <configuration name="GeldApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.br.geld.GeldApplication" />
       <module name="geld" />
@@ -61,57 +90,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeldApplicationTests.testDummy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BillingTests.testUpdateMonthlyBillingWithoutAnyBillingsCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="geld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.br.geld.*" />
+          <option name="PATTERN" value="com.br.geld.servicestests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.br.geld" />
-      <option name="MAIN_CLASS_NAME" value="com.br.geld.GeldApplicationTests" />
-      <option name="METHOD_NAME" value="testDummy" />
+      <option name="PACKAGE_NAME" value="com.br.geld.servicestests" />
+      <option name="MAIN_CLASS_NAME" value="com.br.geld.servicestests.BillingTests" />
+      <option name="METHOD_NAME" value="testUpdateMonthlyBillingWithoutAnyBillingsCreated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderServiceTests.testShouldCreateOrderSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="geld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.br.geld.*" />
+          <option name="PATTERN" value="com.br.geld.servicestests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.br.geld" />
-      <option name="MAIN_CLASS_NAME" value="com.br.geld.IndexTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexTests.greetingShouldReturnDefaultMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="geld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.br.geld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.br.geld" />
-      <option name="MAIN_CLASS_NAME" value="com.br.geld.IndexTests" />
-      <option name="METHOD_NAME" value="greetingShouldReturnDefaultMessage" />
+      <option name="PACKAGE_NAME" value="com.br.geld.servicestests" />
+      <option name="MAIN_CLASS_NAME" value="com.br.geld.servicestests.OrderServiceTests" />
+      <option name="METHOD_NAME" value="testShouldCreateOrderSuccessfully" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="geld in geld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderServiceTests.testShouldThrowExceptionWhenDTOIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="geld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.br.geld.servicestests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.br.geld.servicestests" />
+      <option name="MAIN_CLASS_NAME" value="com.br.geld.servicestests.OrderServiceTests" />
+      <option name="METHOD_NAME" value="testShouldThrowExceptionWhenDTOIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="servicestests in geld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="geld" />
       <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/com/br/geld" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/br/geld/servicestests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IndexTests" />
+        <item itemvalue="JUnit.servicestests in geld" />
+        <item itemvalue="JUnit.BillingTests.testUpdateMonthlyBillingWithoutAnyBillingsCreated" />
         <item itemvalue="Application.GeldApplication" />
-        <item itemvalue="JUnit.geld in geld" />
-        <item itemvalue="JUnit.IndexTests.greetingShouldReturnDefaultMessage" />
-        <item itemvalue="JUnit.GeldApplicationTests.testDummy" />
+        <item itemvalue="JUnit.OrderServiceTests.testShouldThrowExceptionWhenDTOIsNull" />
+        <item itemvalue="JUnit.OrderServiceTests.testShouldCreateOrderSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +234,95 @@
       <option name="project" value="LOCAL" />
       <updated>1693066520604</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updating message 2">
+      <option name="closed" value="true" />
+      <created>1693448858932</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693448858932</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updating controller">
+      <option name="closed" value="true" />
+      <created>1693476007856</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693476007856</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding getter and setters for Order Domain">
+      <option name="closed" value="true" />
+      <created>1693589538211</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693589538211</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Creating basic JpaRepository for Orders">
+      <option name="closed" value="true" />
+      <created>1693589565260</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693589565260</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Order transfer Object">
+      <option name="closed" value="true" />
+      <created>1693589646464</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693589646464</updated>
+    </task>
+    <task id="LOCAL-00013" summary="creating order saving in OrderService">
+      <option name="closed" value="true" />
+      <created>1693589721133</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693589721133</updated>
+    </task>
+    <task id="LOCAL-00014" summary="creating POST endpoint for order creation">
+      <option name="closed" value="true" />
+      <created>1693589836258</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1693589836258</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updating application.properties to get data from sqlserver db">
+      <option name="closed" value="true" />
+      <created>1697141360982</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697141360982</updated>
+    </task>
+    <task id="LOCAL-00016" summary="optimazing memory">
+      <option name="closed" value="true" />
+      <created>1697141378074</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697141378074</updated>
+    </task>
+    <task id="LOCAL-00017" summary="error handling in OrderService">
+      <option name="closed" value="true" />
+      <created>1697141399318</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697141399318</updated>
+    </task>
+    <task id="LOCAL-00018" summary="creating JpaRepos with their respectives custom queries">
+      <option name="closed" value="true" />
+      <created>1697141449713</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697141449713</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +343,64 @@
     <MESSAGE value="exposing port 80" />
     <MESSAGE value="generating war" />
     <MESSAGE value="generating jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="generating jar" />
+    <MESSAGE value="updating message 2" />
+    <MESSAGE value="updating controller" />
+    <MESSAGE value="Adding getter and setters for Order Domain" />
+    <MESSAGE value="Creating basic JpaRepository for Orders" />
+    <MESSAGE value="Order transfer Object" />
+    <MESSAGE value="creating order saving in OrderService" />
+    <MESSAGE value="creating POST endpoint for order creation" />
+    <MESSAGE value="updating application.properties to get data from sqlserver db" />
+    <MESSAGE value="optimazing memory" />
+    <MESSAGE value="error handling in OrderService" />
+    <MESSAGE value="creating JpaRepos with their respectives custom queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating JpaRepos with their respectives custom queries" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="org.hibernate.QueryException" package="org.hibernate" />
+          <option name="timeStamp" value="12" />
+        </breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk1.8.0_202/src.zip!/java/sql/Timestamp.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/br/geld/services/BillingService.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/br/geld/servicestests/OrderServiceTests.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/br/geld/servicestests/BillingTests.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/br/geld/services/BillingService.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.hibernate.engine.query.spi.NamedParameterDescriptor" memberName="sourceLocations" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((NoSuchMethodError)client.getSecret(&quot;gelddb-server&quot;)).cause" custom="java.lang.NoSuchMethodError" />
+        <watch expression="client.implClient.pipeline" />
+        <watch expression="((IllegalArgumentException)targetException).cause" custom="java.lang.IllegalArgumentException" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
