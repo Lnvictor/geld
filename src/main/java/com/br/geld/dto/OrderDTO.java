@@ -27,7 +27,7 @@ public class OrderDTO {
     private Timestamp updatedAt;
 
 
-    public OrderDTO(BigDecimal value, int installmentsNumber, Timestamp createdAt, Timestamp updatedAt) {
+    public OrderDTO(BigDecimal value, int installmentsNumber) {
         this.value = value;
         this.installmentsNumber = installmentsNumber;
         this.createdAt = Timestamp.from(Instant.now());
