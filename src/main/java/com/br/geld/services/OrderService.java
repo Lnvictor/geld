@@ -16,8 +16,14 @@ public class OrderService {
     }
 
     public Order createOrder(OrderDTO dto){
-        Order order = new Order(dto.getValue(), dto.getInstallmentsNumber(), dto.getCreatedAt(), dto.getUpdatedAt());
-        orderRepository.save(order);
-        return order;
+        try{
+            Order order = new Order(dto.getValue(), dto.getInstallmentsNumber(), dto.getCreatedAt(), dto.getUpdatedAt());
+            return orderRepository.save(order);
+        }
+        catch (NullPointerException exception){
+            String message = "DTO invalido para a entidade Order!";
+            System.out.println(message);
+            throw new IllegalArgumentException(message);
+        }
     }
 }
