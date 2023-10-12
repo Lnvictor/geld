@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 public class IndexController {
     @GetMapping("/message")
     public String home(){
-        String message = "Eu amo a laise, ela e o amor da minha vida";
-        return message;
+        return "Eu amo a laise, ela e o amor da minha vida";
     }
 }
